@@ -519,3 +519,45 @@ body, html {
     color: rgba(0, 180, 40, 1);
     fill: rgba(0, 180, 40, 1);
 }
+
+.grid_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 16%;
+    float: right;
+}
+
+.spa .fas {
+    color: red;
+}
+
+.grid_img p {
+    color: rgba(77, 77, 77, 1);
+    font-size: calc(9pt + 0.15vw);
+    font-family: 'NexaDemo__Bold';
+}
+
+.fa-download {
+    background-color: rgba(0, 180, 40, 1);
+    padding: 5px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+.fa-heart {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid_img {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .grid_img {
+        width: 100%;
+    }
+
+}
