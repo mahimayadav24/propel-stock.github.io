@@ -281,6 +281,23 @@
                                 </button>
                             </div>
                         </div>
+
+                        <div class="grid_img">
+                            <div class="gr_img_ht">
+                                <div class="gr_img_ht spa">
+                                    <span> <span class="img_color"> <i class="far fa-heart"></i>
+                                        </span>
+                                        <p>Wishlist</p>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="gr_img_ht">
+                                <span> <span class="img_color"><i class="fas fa-download"></i></span>
+                                    <p>Download</p>
+                                </span>
+                            </div>
+                        </div>
                         <div class="mid">
                             <p>Enter keyword to explore PROPEL world !</p>
                             <img src="./Assets/sapiens 1.png" alt="">
@@ -341,6 +358,16 @@
             $('.nav-item').removeClass('actives');   // it remove all the active links
             $(this).addClass('actives');    // it adds active class to the current link you have opened
         })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(".far").click(function () {
+            $(this).toggleClass("fas");
+        });
+
     </script>
 
 </body>
